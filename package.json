@@ -1,0 +1,14 @@
+{
+    "name": "RAG-POC",
+    "private": true,
+    "workspaces": ["FE", "BE"],
+    "scripts": {
+      "install-all": "npm install",
+      "dev": "npm run dev -w FE & npm run dev -w BE",
+      "dev:fe": "npm run dev -w FE",
+      "dev:be": "npm run dev -w BE",
+      "test": "npm run test -w FE && npm run test -w BE",
+      "test:fe": "npm run test -w FE",
+      "test:be": "npm run test -w BE"
+    }
+  }
